@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mw_1430{
+    max-width: 1430px;
+    width: 100%;
+}
+.t4s_ecomposer_bl1{
+    box-shadow: 0 3px 10px rgb(215 215 215);
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    z-index: 8;
+}
+.t4s_content_EC_2{
+    padding-left: 0px;
+    padding-bottom: 30px;
+   
+}
+.t4s_get_out_app > span{
+    font-size: 16px;
+color: #999999;
+font-weight: 400;
+}
+.t4s_get_out_app{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.t4s_get_out_app> img{
+    margin-right: 13px;
+    width: 50px;
+    height: 50px;
+}
+.t4s_title_EC{
+    font-size: 36px;
+    margin-bottom: unset;
+    color: #000;
+font-weight: 600;
+line-height: 1.2em;
+margin-top: 18px;
+}
+.t4s_title_EC > span{
+    color: #0ec1ae;
+}
+.t4s_review >div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.t4s_review{
+    margin-top: 6px;
+    margin-bottom: 17px;
+}
+.star_review svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffc922;
+    margin: 0 1.5px;
+    stroke: #ffc922;
+}
+.star_review svg:first-child{
+    margin-left: unset;
+}
+.t4s_count_review{
+    font-size: 16px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.t4s_dis_EC{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #5b5b5b;
+    font-weight: 400;
+    margin-bottom: unset;
+    margin-bottom: 40px;
+    max-width: 544px;
+    width: 100%;
+}
+.t4s_dis_EC > a{
+    text-decoration: none;
+    border-bottom: 1px solid #ff0000;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.t4s_new_letter span{
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #000000;
+    padding-right: 15px;
+    font-weight: 500;
+    display: none;
+    align-items: center;
+}
+.t4s_new_letter{
+    padding: 15px 15px 15px 20px;
+    background: #fff;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0 1px 20px rgb(230, 230, 230);
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 510px;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 23px;
+    height: fit-content;
+}
+
+.t4s_content_EC_1 img{
+    width: 100%;
+}
+.t4s_content_EC_1{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+}
+.t4s_ecomposer_bl1{
+    background-image: url(./assets/images/top-bg.png);
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.t4s_input_new_letter {
+    width: calc(100% - 270px);
+    border: none;
+    outline: none;
+}
+
+.t4s_btn_new_letter {
+    border: none;
+    background-color: #60a22c;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 42px;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.t4s_btn_new_letter:hover{
+    background-color: #5fa22cd1;
+    transition: 0.3s;
+}
+.t4s_btn_new_letter svg{
+    width: 18px;
+    height: auto;
+    fill: #fff;
+    margin-left: 7px;
+}
+.t4s_meet_EC a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+.t4s_meet_EC a svg{
+    width: 18px;
+    height: auto;
+    fill: #5b5b5b ;
+}
+.t4s_meet_EC{
+    border-bottom: 1px solid #5b5b5b;
+    width: fit-content;
+}
+.t4s_meet_EC:hover{
+    transition: 0.3s;
+    border-bottom: 1px solid #60a22c;
+}
+.t4s_meet_EC:hover a svg,.t4s_meet_EC:hover a{
+    transition: 0.3s;
+    color: #60a22c;
+    fill: #60a22c;
+}
+#demo-homes{
+    padding: 90px 0 400px;
+    position: relative;
+    z-index: 8;
+}
+.section_ecomposer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -318px;
+    z-index: 10;
+}
+.woo_elements_wrap{
+    padding: 380px 0 100px;
+}
+.isotope-items .btn-group {
+    margin-bottom: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+@media screen and (min-width: 768px){
+    .t4s_new_letter span {
+        display: flex;
+    }
+    .t4s_ecomposer_bl1{
+        padding-left: 100px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        padding-top: 70px;
+    }
+}
+@media screen and (min-width: 1200px){
+    
+}
