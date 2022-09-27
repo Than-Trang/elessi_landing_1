@@ -133,7 +133,7 @@ img.lazy.no-preview[data-src] {
     position: absolute;
   }
   .desktop-nasa-absolute .layer {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: right;
   }
   .desktop-nasa-absolute.right-0 {
@@ -156,9 +156,9 @@ img.lazy.no-preview[data-src] {
     overflow: inherit;
   }
 
-  .woo-conversion-wrap .layer img {
+  /* .woo-conversion-wrap .layer img {
     box-shadow: 0px 24px 74px 10px rgba(0, 0, 0, 0.1);
-  }
+  } */
 }
 .woo-conversion-wrap {
   text-align: center;
