@@ -289,7 +289,7 @@ button:focus {
 
 .nasa-section-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -1006,40 +1006,9 @@ button:focus {
   top: 200px;
 }
 
-.woo-notes .note-item {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-.woo-notes .note-item p, .woo-notes .note-item a {
-  padding: 5px 20px;
-  font-size: 15px;
-  box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.03);
-}
-.woo-notes .note-item p:hover, .woo-notes .note-item a:hover {
-  box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.06);
-}
-.woo-notes .note-item a, .woo-notes .note-item p {
-  padding: 19px 20px;
-  font-size: 15px;
-  box-shadow: 0 0px 10px 5px rgb(0 0 0 / 3%);
-  background-color: #fff;
-  color: inherit;
-  display: block;
-  line-height: 1.4;
-}
 
-@media (min-width: 1250px) {
-  .woo-notes {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-  }
-  .woo-notes .note-item {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
+
+
 #mobile-design {
   background-image: url(assets/images/mobile-bg.png);
   background-position: center;
@@ -1156,14 +1125,6 @@ button:focus {
   border-radius: 5px;
 }
 
-.isotope-item .title {
-  font-size: 16px;
-  margin-top: 30px;
-  font-weight: 400;
-  color: #333333;
-  display: block;
-  text-align: center;
-}
 
 .isotope-item:hover .demo-thumb img {
   box-shadow: 0px 24px 74px 10px rgba(0, 0, 0, 0.09);
@@ -1306,11 +1267,7 @@ button:focus {
   display: flex;
   flex-direction: column;
 }
-.core-item-inner h4{
-  padding-top: 10px;
-  margin-bottom: 10px;
-  font-size: 19px;
-}
+
 .core-item-inner p {
   font-size: 15px;
   line-height: 1.4;
@@ -1355,9 +1312,6 @@ button:focus {
   background-color: #DFE6F0;
 }
 
-.product-demo-import {
-  background-color: #F3E1E1;
-}
 
 .product-color-label-swatches,
 .product-hover-styles {
