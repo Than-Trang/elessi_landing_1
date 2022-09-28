@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.mw_1430{
-    max-width: 1430px;
-    width: 100%;
-}
 .t4s_ecomposer_bl1{
     box-shadow: 0 3px 10px rgb(215 215 215);
     background: #fff;
@@ -195,13 +191,23 @@ margin-top: 18px;
     z-index: 10;
 }
 .woo_elements_wrap{
-    padding: 380px 0 100px;
+    padding-top: 400px;
 }
 .isotope-items .btn-group {
-    margin-bottom: 55px;
+    margin-bottom: 82px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .pre_order{
+    margin-bottom: 35px;
+  }
+  .t4s_padding_conversion{
+    padding-top: 55px;
+    padding-bottom: 74px;
+  }
+  .margin-top-114 {
+    margin-top: 114px;
   }
 @media screen and (min-width: 768px){
     .t4s_new_letter span {
@@ -217,3 +223,16 @@ margin-top: 18px;
 @media screen and (min-width: 1200px){
     
 }
+@media (min-width: 1250px) {
+    .woo-notes {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      margin-bottom: 111px;
+    }
+    .woo-notes .note-item {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
