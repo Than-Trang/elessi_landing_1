@@ -181,6 +181,9 @@ img.lazy.no-preview[data-src] {
 .woo-conversion-wrap img {
   max-width: 100%;
 }
+.t4s_popup{
+  display: none;
+}
 
 @media (max-width: 1231px) {
   .woo-conversion-wrap .layer {
@@ -362,21 +365,17 @@ button:focus {
   max-width: 1490px;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .nasa-container {
     max-width: 540px;
   }
-}
-@media (min-width: 768px) {
+} */
+/* @media (min-width: 768px) {
   .nasa-container {
     max-width: 720px;
   }
-}
-@media (min-width: 992px) {
-  .nasa-container {
-    max-width: 960px;
-  }
-}
+} */
+
 @media (min-width: 1232px) {
   .nasa-container {
     width: 1200px;
@@ -626,14 +625,7 @@ button:focus {
   text-align: center;
 }
 
-.counter-section {
-  height: 970px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  padding: 150px 0;
-}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counter-section {
@@ -651,9 +643,6 @@ button:focus {
     min-height: 500px;
     height: auto;
   }
-}
-.counter-section .counter-section-wrap {
-  margin-top: 40px;
 }
 
 .counter-section .counter-section-title {
@@ -1826,85 +1815,3 @@ button.slick-arrow {
   -o-transition: all 350ms ease;
   transition: all 350ms ease;
 }
-
-/*
-.bg-fashion-1 {
-    background-image: url(assets/homes/fashion-1.jpg);
-}
-.bg-fashion-2 {
-    background-image: url(assets/homes/fashion-2.jpg);
-}
-.bg-fashion-3 {
-    background-image: url(assets/homes/fashion-3.jpg);
-}
-.bg-fashion-4 {
-    background-image: url(assets/homes/fashion-4.jpg);
-}
-.bg-fashion-5 {
-    background-image: url(assets/homes/fashion-5.jpg);
-}
-.bg-t-shirt {
-    background-image: url(assets/homes/t-shirt.jpg);
-}
-.bg-shoes {
-    background-image: url(assets/homes/shoes.jpg);
-}
-.bg-organic {
-    background-image: url(assets/homes/organic.jpg);
-}
-.bg-face-mask {
-    background-image: url(assets/homes/face-mask.jpg);
-}
-.bg-accessories {
-    background-image: url(assets/homes/accessories.jpg);
-}
-.bg-fashion-6 {
-    background-image: url(assets/homes/fashion-6.jpg);
-}
-.bg-fashion-7 {
-    background-image: url(assets/homes/fashion-7.jpg);
-}
-.bg-fashion-8 {
-    background-image: url(assets/homes/fashion-8.jpg);
-}
-.bg-baby {
-    background-image: url(assets/homes/baby.jpg);
-}
-.bg-bike {
-    background-image: url(assets/homes/bike.jpg);
-}
-.bg-bag {
-    background-image: url(assets/homes/bag.jpg);
-}
-.bg-furniture {
-    background-image: url(assets/homes/furniture.jpg);
-}
-.bg-jewelry {
-    background-image: url(assets/homes/jewelry.jpg);
-}
-.bg-digital {
-    background-image: url(assets/homes/digital.jpg);
-}
-.bg-digital-2 {
-    background-image: url(assets/homes/digital-2.jpg);
-}
-.bg-cosmetic {
-    background-image: url(assets/homes/cosmetic.jpg);
-}
-.bg-retail {
-    background-image: url(assets/homes/retail.jpg);
-}
-.bg-pet-accessories {
-    background-image: url(assets/homes/pet-accessories.jpg);
-}
-.bg-watch-dark {
-    background-image: url(assets/homes/watch-dark.jpg);
-}
-.bg-watch-light {
-    background-image: url(assets/homes/watch-light.jpg);
-}
-.bg-christmas {
-    background-image: url(assets/homes/christmas.jpg);
-}
-
-*/
