@@ -203,8 +203,8 @@ margin-top: 18px;
     padding-top: 55px;
     padding-bottom: 74px;
   }
-  .margin-top-114 {
-    margin-top: 114px;
+  .margin-top-70 {
+    margin-top: 70px;
   }
 .t4s_woo_notes_item{
     display: flex;
@@ -226,6 +226,7 @@ margin-top: 18px;
     flex-wrap: wrap;
 }
 .t4s_popup{
+  display: none;
     position: absolute;
     right: -320px;
     top: -20px;
@@ -301,7 +302,7 @@ margin-top: 18px;
     z-index: 2;
   }
   .t4s_design_mobile{
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
   #core-elements{
@@ -696,7 +697,41 @@ margin-top: 18px;
     overflow: hidden;
     padding: 150px 0 70px;
   }
+  .woo-notes {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .t4s-ratio {
+    position: relative;
+}
+.t4s-ratio:before {
+    content: '';
+    padding-bottom: calc(100% / (var(--aspect-ratioapt)));
+    display: block;
+    height: 0;
+}
+.t4s-ratio>img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+#mobile-design {
+  --aspect-ratioapt: 408/768;
+}
+.cart-item-tf:hover a{
+  color: #fff;
   
+}
+.buy-btn:hover{
+  background: #6dab33d7;
+  transition: 0.3s;
+}
 @media screen and (min-width: 576px){
   .t4s_new_letter{
     padding: 15px 15px 15px 20px;
@@ -784,6 +819,12 @@ margin-top: 18px;
    
 }
 @media (min-width: 992px) {
+  #woo-features{
+    margin-bottom: 40px;
+  }
+  .t4s_design_mobile{
+    padding-top: 100px;
+  }
   .woo_elements_wrap{
     padding-top: 390px;
   }
