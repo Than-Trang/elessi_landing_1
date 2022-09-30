@@ -724,6 +724,12 @@ margin-top: 18px;
 #mobile-design {
   --aspect-ratioapt: 408/768;
 }
+.woo-items {
+  --aspect-ratioapt: 700/609;
+}
+.woo-features{
+  --aspect-ratioapt: 567/506;
+}
 .cart-item-tf:hover a{
   color: #fff;
   
@@ -731,6 +737,9 @@ margin-top: 18px;
 .buy-btn:hover{
   background: #6dab33d7;
   transition: 0.3s;
+}
+.btn-group:hover a{
+  color:#000;
 }
 @media screen and (min-width: 576px){
   .t4s_new_letter{
