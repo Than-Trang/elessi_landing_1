@@ -100,7 +100,13 @@ margin-top: 18px;
     align-items: center;
 }
 
-
+.home-demo > a{
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  right: 0;
+  left: 0;
+}
 .t4s_content_EC_1 img{
     width: 100%;
     margin-bottom: 40px;
@@ -725,7 +731,7 @@ margin-top: 18px;
   --aspect-ratioapt: 408/768;
 }
 .woo-items {
-  --aspect-ratioapt: 700/609;
+  --aspect-ratioapt: 770/626;
 }
 .woo-features{
   --aspect-ratioapt: 567/506;
