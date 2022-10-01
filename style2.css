@@ -346,11 +346,12 @@ margin-top: 18px;
   .t4s_section_img_app >img{
     width: 55px;
     height: 55px;
+    border-radius: 100%;
   }
   .t4s_section_img_app{
     padding: 15px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 100%;
     width: fit-content;
     box-shadow: 0px 2px 27px 4px rgb(0 0 0 / 10%);
     margin-bottom: 15px;
@@ -685,6 +686,13 @@ margin-top: 18px;
   .cart-item-tf .buy-btn2{
     padding: 12px 92px;
   }
+  .cart-item-tf .t4s_open_store{
+    background-color: #f76b6a;
+  }
+  .cart-item-tf .t4s_open_store:hover{
+    background: #f76a6ad4;
+  }
+  
   .bottom_footer{
     padding: 261px 0 137px;
   }
@@ -696,7 +704,7 @@ margin-top: 18px;
     margin-top: unset;
   }
   .counter-section {
-    height: 970px;
+    height: 900px;
     display: flex;
     align-items: center;
     position: relative;
@@ -746,6 +754,20 @@ margin-top: 18px;
 }
 .btn-group:hover a{
   color:#000;
+}
+.buy-btn {
+  background-color: #6dab33;
+  border-color: #6dab33;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 25.5px;
+  display: flex;
+  align-items: center;
+  border-radius: 0;
+  display: inline-block;
+}
+.btn_banner{
+  margin-top: 35px;
 }
 @media screen and (min-width: 576px){
   .t4s_new_letter{
@@ -800,6 +822,10 @@ margin-top: 18px;
 }
 
 @media screen and (min-width: 768px){
+  .cart-item-tf .t4s_open_store{
+    background-color: #f76b6a;
+    margin-right: 5px;
+  }
   .counter-section {
     padding: 150px 0 ;
   }
@@ -834,6 +860,13 @@ margin-top: 18px;
    
 }
 @media (min-width: 992px) {
+  .menu-wrapper .menu-items .menu-link{
+    margin: 25px 6px;
+  }
+  .buy-btn {
+    font-size: 16px;
+    padding: 10px 12.5px;
+  }
   #woo-features{
     margin-bottom: 40px;
   }
@@ -894,10 +927,16 @@ margin-top: 18px;
 }
 }
 @media screen and (min-width: 1200px){
-  
+  .menu-wrapper .menu-items .menu-link{
+    margin: 25px 10px;
+  }
  
 }
 @media (min-width: 1250px) {
+  .buy-btn{
+    padding: 10px 25.5px;
+    font-size: 20px;
+  }
   
     .woo-notes {
       max-width: 1200px;
@@ -912,6 +951,11 @@ margin-top: 18px;
     }
   }
   @media screen and (min-width: 1600px){
+    .menu-wrapper .menu-items .menu-link {
+      margin: 25px 15px;
+    }
+  }
+  @media screen and (min-width: 1600px){
     .t4s_compatible_col_1{
       padding-left: 110px;
     }
@@ -919,3 +963,5 @@ margin-top: 18px;
       padding: 0 0 0 72px;
     }
   }
+  
+ 

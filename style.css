@@ -1376,7 +1376,6 @@ button:focus {
   .menu-wrapper .menu-items .menu-link {
     color: inherit;
     padding: 5px 0px;
-    margin: 25px 15px;
     display: inline-block;
     font-size: 18px;
     position: relative;
@@ -1406,20 +1405,11 @@ button:focus {
     margin-left: 25px;
   }
 }
-.buy-btn {
-  background-color: #6dab33;
-  border-color: #6dab33;
-  color: #fff;
-  font-size: 20px;
-  padding: 10px 25.5px;
-  display: flex;
-  align-items: center;
-  border-radius: 0;
-  display: inline-block;
-}
+
 /** mobile menu css **/
 @media (max-width: 991px) {
-  .header-page .buy-btn {
+ 
+ .buy-btn {
     padding: 10px 20px;
     font-size: 15px;
   }
@@ -1460,11 +1450,7 @@ button:focus {
     max-width: 100%;
   }
 }
-@media (min-width: 991px) and (max-width: 1200px) {
-  .menu-wrapper .menu-items .menu-link {
-    margin: 25px 10px;
-  }
-}
+
 .header-page.menu-fixed .menu-wrapper .menu-items .menu-link {
   color: #111111;
 }
